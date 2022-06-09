@@ -2,7 +2,7 @@
 
 ## Week 1 Assignment: Flixster
 
-Submitted by: **NAME**
+Submitted by: Andrew Valerio
 
 Estimated time spent: **#** hours spent in total
 
