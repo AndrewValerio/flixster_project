@@ -9,7 +9,7 @@ let pageNumber = 1;
 let posterList = document.querySelector("#container");
 let searchTerm = document.querySelector("#searchTerm");
 const showMoreMovies = document.querySelector("#showMore");
-const showPreviousMovies = document.querySelector("#clear")
+const clearMovies = document.querySelector("#clear")
 const searchButton = document.querySelector("#search");
 let prevSearch = "";
 let movieName = "";
@@ -67,8 +67,8 @@ function displayMovies(result){
             else
             {movieName =result[index].title}
         posterList.innerHTML += ` 
-        <li class ="card">
-            <img src = " ${base + result[index].poster_path}" alt = "Images">
+        <li class ="card" onclick = "movieInformation()">
+            <img id ="icon" src = " ${base + result[index].poster_path}" alt = "Images">
             <h2>${movieName}</h2>
             <div>
                 <p>Rating: ${result[index].vote_average} / 10</p>
@@ -76,7 +76,15 @@ function displayMovies(result){
         </li>
     `
         }
+
 })
+
+}
+
+async function movieInformation(){
+    console.log("clicked")
+    //fix this tomorrow
+
 }
 
 window.onload = function(){
