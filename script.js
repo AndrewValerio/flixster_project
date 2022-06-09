@@ -54,7 +54,6 @@ async function startingMovieList(){
     console.log("result is: ", result)
     displayMovies(result);
     console.log("pageNumber: " + pageNumber);
-    prevSearch = "now_playing";
 }
 
 function displayMovies(result){
@@ -97,5 +96,6 @@ window.onload = function(){
         moreMovieList();});
     clearMovies.addEventListener('click', (e) => {
         e.preventDefault()
+        posterList.innerHTML = "";
         startingMovieList();});    
 }
