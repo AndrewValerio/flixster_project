@@ -33,7 +33,7 @@ async function MovieList(){
     displayMovies(result);
     console.log("pageNumber: " + pageNumber);
     showMoreMovies.classList.remove("hidden");
-    showPreviousMovies.classList.remove("hidden");
+    clearMovies.classList.remove("hidden");
     prevSearch = searchTerm.value;
 }
 
