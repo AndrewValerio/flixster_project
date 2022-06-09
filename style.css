@@ -1,1 +1,157 @@
 
+.hidden{
+    visibility: hidden
+}
+
+.button {
+    background-color: #ffffff; 
+    display: flex;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .redButton{
+    background-color: #ffffff; 
+    display: flex;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .redButton:hover {
+    background-color: #ce0000; /* red */
+    color: white;
+  }
+
+  .button:hover {
+    background-color: #39e54a; /* Green */
+    color: white;
+  }
+
+  .bottomButton{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+h1{
+    color: #ffffff;
+    background: linear-gradient(-45deg, rgb( 13, 37, 63),rgb(105, 149, 117), rgba(1, 179, 228, 0.59)  );
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: ultra-expanded;
+    text-align: center;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+
+.searchBox{
+    padding: 10px 32px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+p{
+    color: #ffffff;
+    background: linear-gradient(-45deg, rgb( 13, 37, 63),rgb(105, 149, 117), rgba(1, 179, 228, 0.59) );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    grid-gap: 20px;
+}
+
+.card{
+    list-style: none;
+    color: #0a0c2c;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+html {
+    height:100%;
+  }
+  
+  body {
+    margin: 200px;
+
+  }
+  
+  .bg {
+    animation:slide 15s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(1, 180, 228) 50%, #0d253f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:18s;
+  }
+  
+  .bg3 {
+    animation-duration:20s;
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
