@@ -5,8 +5,6 @@ Submitted by: Andrew Valerio
 
 Estimated time spent: 12 hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site]
-
 ### Application Features
 
 #### CORE FEATURES
