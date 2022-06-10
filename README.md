@@ -1,4 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
 
 ## Week 1 Assignment: Flixster
 
@@ -42,33 +41,27 @@ Deployed Application (optional): [Flixster Deployed Site]
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-http://g.recordit.co/uMEFi0kzzi.gif
-
-[![Flixter Walkthrough](http://g.recordit.co/uMEFi0kzzi.gif)]
-[![Demo CountPages alpha](http://g.recordit.co/LexVWsS6E4.gif)]
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/91484888/173159135-d80f37ca-b5cd-48af-914e-b462c8d09811.gif)
 
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Yes, all the labs this week contributed to this project, mostly the giphy party lab as loading images urls and its use of innerHTML is what came up most useful in this project. I felt un prepared for the load more button as before in giphy party it wanted to remove previous searches and in this project it was to add them to the bottom until a new search was made, that being a different search term. 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+I would have added more stretch features and I would have focused on my displays of the title and rating adding a star icon instead of "/10".
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Most of the project went very well. I had all the core features done on the first day with a little help. I like how my peer rounded the images and formatted their website compared to mine.
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+https://developers.themoviedb.org/3/getting-started/introduction
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Shout out to Roy he always helps in the best way possible and is very polite and easy to have conversation with!
