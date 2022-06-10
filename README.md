@@ -6,7 +6,7 @@ Submitted by: Andrew Valerio
 
 Estimated time spent: 12 hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Flixster Deployed Site]
 
 ### Application Features
 
@@ -47,7 +47,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 http://g.recordit.co/uMEFi0kzzi.gif
 
 [![Flixter Walkthrough](http://g.recordit.co/uMEFi0kzzi.gif)]
-[![Demo CountPages alpha]http://g.recordit.co/LexVWsS6E4.gif]
+[![Demo CountPages alpha](http://g.recordit.co/LexVWsS6E4.gif)]
 
 
 
