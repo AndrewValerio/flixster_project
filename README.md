@@ -46,7 +46,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 http://g.recordit.co/uMEFi0kzzi.gif
 
-<img src="http://g.recordit.co/uMEFi0kzzi.gif" alt="My Project GIF" width="500" height="600">
+![](http://g.recordit.co/uMEFi0kzzi.gif)
 
 ### Reflection
 
