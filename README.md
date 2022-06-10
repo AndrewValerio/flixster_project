@@ -44,9 +44,9 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
-(https://recordit.co/uMEFi0kzzi)
+http://g.recordit.co/uMEFi0kzzi.gif
 
-<img src="https://recordit.co/uMEFi0kzzi" alt="My Project GIF" width="500" height="600">
+<img src="http://g.recordit.co/uMEFi0kzzi.gif" alt="My Project GIF" width="500" height="600">
 
 ### Reflection
 
