@@ -54,6 +54,8 @@ async function startingMovieList(){
     console.log("result is: ", result)
     displayMovies(result);
     console.log("pageNumber: " + pageNumber);
+    showMoreMovies.classList.add("hidden");
+    clearMovies.classList.add("hidden");
 }
 
 function displayMovies(result){
