@@ -46,7 +46,10 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 http://g.recordit.co/uMEFi0kzzi.gif
 
-![Flixter Walkthrough](http://g.recordit.co/uMEFi0kzzi.gif)
+[![Flixter Walkthrough](http://g.recordit.co/uMEFi0kzzi.gif)]
+[![Demo CountPages alpha]http://g.recordit.co/LexVWsS6E4.gif]
+
+
 
 ### Reflection
 
