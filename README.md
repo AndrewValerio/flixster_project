@@ -39,8 +39,11 @@ Estimated time spent: 12 hours spent in total
 
 ### Walkthrough Video
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/91484888/173159135-d80f37ca-b5cd-48af-914e-b462c8d09811.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/91484888/173159861-09557090-df64-4470-890c-e2a9958b2c5e.gif)
 
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/91484888/173159981-71c5bd41-eb45-405a-9a23-982222a58b6e.gif)
+
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/91484888/173160014-0d98ec25-baf4-4c11-b224-d712591e7f75.gif)
 
 ### Reflection
 
