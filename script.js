@@ -6,10 +6,10 @@ const base = "https://image.tmdb.org/t/p/w500/";
 
 let pageNumber = 1;
 
-let posterList = document.querySelector("#container");
-let searchTerm = document.querySelector("#searchTerm");
+let posterList = document.querySelector("#movie-grid");
+let searchTerm = document.querySelector("#search-input");
 const showMoreMovies = document.querySelector("#showMore");
-const clearMovies = document.querySelector("#clear")
+const clearMovies = document.querySelector("#close-search-btn")
 const searchButton = document.querySelector("#search");
 let prevSearch = "";
 let movieName = "";
@@ -68,11 +68,11 @@ function displayMovies(result){
             else
             {movieName =result[index].title}
         posterList.innerHTML += ` 
-        <li class ="card" onclick = "movieInformation()">
-            <img id ="icon" src = " ${base + result[index].poster_path}" alt = "Images">
-            <h2>${movieName}</h2>
+        <li class ="movie-card" onclick = "movieInformation()">
+            <img id ="icon" class = "movie-poster" src = " ${base + result[index].poster_path}" alt = "Images">
+            <h2 class = "movie-title">${movieName}</h2>
             <div>
-                <p>Rating: ${result[index].vote_average} / 10</p>
+                <p class = "movie-votes">Rating: ${result[index].vote_average} / 10</p>
             </div>
         </li>
     `

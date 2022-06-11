@@ -89,7 +89,7 @@ p{
     }
 }
 
-#container{
+#movie-grid{
     display: grid;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@ p{
     grid-gap: 20px;
 }
 
-.card{
+.movie-card{
     list-style: none;
     color: #0a0c2c;
     text-align: center;
@@ -107,7 +107,7 @@ img{
     display: flex
 }
 
-.card img{
+.movie-card img{
     width: 100%;
     display: flex;
 
